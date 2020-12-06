@@ -1,16 +1,14 @@
 <resources>
     <string name="app_name">Taskalica</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="nema_taskova">Nema taskova</string>
-    <string name="list_name">Taskalica</string>
-    <string name="add_task">Dodaj task</string>
-    <string name="ime_taska">Ime taska</string>
+
+
+    <string name="list_name">enTask</string>
+
     <string-array name="priorities">
 
-        <item>Nebitno</item>
-        <item>Normalno</item>
-        <item>Važno</item>
-        <item>Hitno</item>
+        <item>Important</item>
+        <item>Normal</item>
+        <item>Irrelevant</item>
     </string-array>
 </resources>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/listLayout"
     tools:context=".fragments.list.ListFragment">
 
 
@@ -24,15 +25,13 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:backgroundTint="@color/purple_700"
+        android:backgroundTint="@color/purple_500"
         android:clickable="true"
         android:focusable="true"
         android:src="@drawable/ic_add"
         android:tint="@color/white"
-        app:backgroundTint="#F44336"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:rippleColor="#00BCD4" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/no_data_imageView"
@@ -51,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/nema_taskova"
+        android:text="No tasks"
         android:visibility="invisible"
         android:textSize="16sp"
         android:alpha="0.5"
